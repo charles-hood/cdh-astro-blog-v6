@@ -26,7 +26,7 @@ tags:
 
 I have a confession to make, and this one comes with a soundtrack.
 
-For most of the past year, I've been releasing music under a fake name. Not a stage name. A full secret identity, with a face, a backstory, and at last count 477 songs. His name is Bubba Zuckermusk, and this is the post where you two finally meet.
+For most of the past year, I've been quietly posting AI music under a fake name. Not a stage name. A full secret identity, with a face, a backstory, and at last count 477 songs. His name is Bubba Zuckermusk, and this is the post where you two finally meet.
 
 ## The Legend of Bubba 🤠
 
