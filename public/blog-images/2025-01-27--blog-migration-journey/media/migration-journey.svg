@@ -1,0 +1,36 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8fafc"/>
+  
+  <!-- Old site (Gatsby) -->
+  <rect x="20" y="80" width="120" height="140" rx="8" fill="#663399" stroke="#4a2568" stroke-width="2"/>
+  <text x="80" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Gatsby</text>
+  <text x="80" y="125" text-anchor="middle" fill="#e6fffa" font-family="Arial, sans-serif" font-size="12">Lumen Theme</text>
+  <text x="80" y="145" text-anchor="middle" fill="#e6fffa" font-family="Arial, sans-serif" font-size="10">Slow builds</text>
+  <text x="80" y="160" text-anchor="middle" fill="#e6fffa" font-family="Arial, sans-serif" font-size="10">Complex config</text>
+  <text x="80" y="175" text-anchor="middle" fill="#e6fffa" font-family="Arial, sans-serif" font-size="10">Heavy deps</text>
+  
+  <!-- Arrow -->
+  <path d="M 150 150 L 240 150" stroke="#059669" stroke-width="4" fill="none" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#059669"/>
+    </marker>
+  </defs>
+  <text x="195" y="135" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">MIGRATION</text>
+  
+  <!-- New site (Astro) -->
+  <rect x="260" y="80" width="120" height="140" rx="8" fill="#ff5d01" stroke="#e1470a" stroke-width="2"/>
+  <text x="320" y="105" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Astro</text>
+  <text x="320" y="125" text-anchor="middle" fill="#fff7ed" font-family="Arial, sans-serif" font-size="12">AstroPaper</text>
+  <text x="320" y="145" text-anchor="middle" fill="#fff7ed" font-family="Arial, sans-serif" font-size="10">Fast builds</text>
+  <text x="320" y="160" text-anchor="middle" fill="#fff7ed" font-family="Arial, sans-serif" font-size="10">Simple config</text>
+  <text x="320" y="175" text-anchor="middle" fill="#fff7ed" font-family="Arial, sans-serif" font-size="10">Modern stack</text>
+  
+  <!-- Title -->
+  <text x="200" y="30" text-anchor="middle" fill="#1f2937" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Blog Migration Journey</text>
+  <text x="200" y="50" text-anchor="middle" fill="#6b7280" font-family="Arial, sans-serif" font-size="12">From Gatsby to Astro</text>
+  
+  <!-- Benefits at bottom -->
+  <text x="200" y="260" text-anchor="middle" fill="#059669" font-family="Arial, sans-serif" font-size="12" font-weight="bold">✨ Better Performance • Modern Tech • Easier Maintenance ✨</text>
+</svg>

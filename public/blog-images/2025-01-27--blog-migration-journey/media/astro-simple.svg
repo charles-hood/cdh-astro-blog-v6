@@ -1,0 +1,20 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#ffffff" rx="12"/>
+  
+  <!-- Astro brand colors gradient -->
+  <defs>
+    <linearGradient id="astroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff5d01;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#ff7d33;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ffab66;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Simple rocket/star shape -->
+  <polygon points="150,40 160,70 190,70 170,90 180,120 150,105 120,120 130,90 110,70 140,70" fill="url(#astroGradient)"/>
+  
+  <!-- Astro text -->
+  <text x="150" y="150" text-anchor="middle" fill="#1f2937" font-family="system-ui, sans-serif" font-size="32" font-weight="700">Astro</text>
+  <text x="150" y="175" text-anchor="middle" fill="#6b7280" font-family="system-ui, sans-serif" font-size="14">The web framework for content-driven websites</text>
+</svg>
