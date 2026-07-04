@@ -12,7 +12,8 @@ tags:
   - "Tech"
 ---
 
-<img src="/blog-images/migration-do-over/media/hero.png" alt="A monitor in a dark room showing a glowing commit graph, an orange branch line curving back into a blue main line at a bright merge point, with a dinner fork resting on the desk beside the keyboard" style="float: right; margin: 0 0 20px 20px; width: 250px; height: 250px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" class="migration-img">
+<img src="/blog-images/migration-do-over/media/hero-light.png" alt="A monitor in a sunlit room showing a commit graph, an orange branch line curving back into a blue main line at a glowing merge point, with a dinner fork resting on the desk beside the keyboard" style="float: right; margin: 0 0 20px 20px; width: 250px; height: 250px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" class="migration-img block dark:hidden">
+<img src="/blog-images/migration-do-over/media/hero-dark.png" alt="A monitor in a dark room showing a glowing commit graph, an orange branch line curving back into a blue main line at a bright merge point, with a dinner fork resting on the desk beside the keyboard" style="float: right; margin: 0 0 20px 20px; width: 250px; height: 250px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);" class="migration-img hidden dark:block">
 
 <style>
 @media (max-width: 768px) {
