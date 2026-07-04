@@ -34,33 +34,54 @@ const homePath = getRelativeLocaleUrl(locale, "");
     class="app-layout"
   >
     <section id="hero" class="border-border border-b pt-8 pb-6">
-      <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
-        Hey there!
-      </h1>
-      <a
-        target="_blank"
-        href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
-        class="inline-block"
-        aria-label="RSS Feed"
-        title="RSS Feed"
-      >
-        <IconRss
-          width={20}
-          height={20}
-          class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
-        />
-        <span class="sr-only">RSS Feed</span>
-      </a>
+      <div class="flex flex-col sm:flex-row sm:items-start sm:gap-8">
+        <div class="flex-1">
+          <!-- Mobile: float the photo right of the intro text -->
+          <img
+            src="/cdh-bio-pic-LI.jpeg"
+            alt="Charles Hood"
+            class="border-accent/20 float-right mb-4 ml-4 h-32 w-32 rounded-full border-4 object-cover shadow-lg sm:hidden"
+          />
 
-      <p>
-        Welcome to my personal web log where I write about tech, tunes, and
-        travel! I'm a seasoned tech enthusiast living in the Atlanta area, with
-        a passion for live music and exploring new places.
-      </p>
-      <p class="mt-2">
-        Browse my latest posts about technology insights, music discoveries,
-        and travel adventures. Feel free to reach out if you'd like to connect!
-      </p>
+          <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
+            Hey there!
+          </h1>
+          <a
+            target="_blank"
+            href={`${import.meta.env.BASE_URL.replace(/\/?$/, "/")}rss.xml`}
+            class="inline-block"
+            aria-label="RSS Feed"
+            title="RSS Feed"
+          >
+            <IconRss
+              width={20}
+              height={20}
+              class="stroke-accent scale-125 stroke-3 rtl:-rotate-90"
+            />
+            <span class="sr-only">RSS Feed</span>
+          </a>
+
+          <p>
+            Welcome to my personal web log where I write about tech, tunes, and
+            travel! I'm a seasoned tech enthusiast living in the Atlanta area,
+            with a passion for live music and exploring new places.
+          </p>
+          <p class="mt-2">
+            Browse my latest posts about technology insights, music
+            discoveries, and travel adventures. Feel free to reach out if you'd
+            like to connect!
+          </p>
+        </div>
+
+        <!-- Desktop: photo column beside the intro -->
+        <div class="hidden justify-center sm:mt-8 sm:flex sm:justify-start">
+          <img
+            src="/cdh-bio-pic-LI.jpeg"
+            alt="Charles Hood"
+            class="border-accent/20 h-40 w-40 rounded-full border-4 object-cover shadow-lg sm:h-48 sm:w-48"
+          />
+        </div>
+      </div>
       {
         socials.length > 0 && (
           <div class="mt-4 flex max-sm:flex-col sm:items-center">
