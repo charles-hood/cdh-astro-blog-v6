@@ -2,8 +2,9 @@ import { defineAstroPaperConfig } from "./src/types/config";
 
 export default defineAstroPaperConfig({
   site: {
-    // NOTE: matches the live site's current canonical (charleshood.net).
-    // Revisit at cutover — docs treat charleshood.me as the primary domain.
+    // charleshood.net is the DELIBERATE canonical domain (Charles's call,
+    // July 2026): easiest to say out loud, and it's what search engines
+    // already have indexed. .me and .org serve the same site as duplicates.
     url: "https://charleshood.net/",
     title: "Charles Hood",
     description: "My personal web log where I write about tech, tunes, and travel!",
