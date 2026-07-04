@@ -1,0 +1,73 @@
+---
+/**
+ * Giscus comments (giscus.app) — plain-script embed with theme sync.
+ *
+ * No framework: giscus's React wrapper was only ever a convenience around
+ * the iframe postMessage API used below. Comment threads live in GitHub
+ * Discussions on charles-hood/cdh-astro-blog (the v5 repo), keyed by
+ * pathname, so all existing threads carry over unchanged.
+ */
+---
+
+<div id="giscus-comments" class="mt-2"></div>
+
+<script>
+  const GISCUS_ORIGIN = "https://giscus.app";
+
+  const GISCUS_CONFIG: Record<string, string> = {
+    "data-repo": "charles-hood/cdh-astro-blog",
+    "data-repo-id": "R_kgDOPTXr4Q",
+    "data-category": "Announcements",
+    "data-category-id": "DIC_kwDOPTXr4c4Ctc6B",
+    "data-mapping": "pathname",
+    "data-strict": "0",
+    "data-reactions-enabled": "1",
+    "data-emit-metadata": "0",
+    "data-input-position": "bottom",
+    "data-lang": "en",
+    "data-loading": "lazy",
+  };
+
+  function currentTheme(): string {
+    return document.documentElement.getAttribute("data-theme") === "dark"
+      ? "dark"
+      : "light";
+  }
+
+  function mount(): void {
+    const container = document.getElementById("giscus-comments");
+    if (!container || container.hasChildNodes()) return;
+
+    const script = document.createElement("script");
+    script.src = `${GISCUS_ORIGIN}/client.js`;
+    script.async = true;
+    script.crossOrigin = "anonymous";
+    for (const [key, value] of Object.entries(GISCUS_CONFIG)) {
+      script.setAttribute(key, value);
+    }
+    script.setAttribute("data-theme", currentTheme());
+    container.appendChild(script);
+  }
+
+  function syncTheme(): void {
+    const iframe = document.querySelector<HTMLIFrameElement>(
+      "iframe.giscus-frame"
+    );
+    iframe?.contentWindow?.postMessage(
+      { giscus: { setConfig: { theme: currentTheme() } } },
+      GISCUS_ORIGIN
+    );
+  }
+
+  // The site's theme.ts reflects every toggle onto <html data-theme="...">;
+  // watching that attribute keeps the giscus iframe in step. documentElement
+  // survives View Transitions, so one observer is enough for the session.
+  new MutationObserver(syncTheme).observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ["data-theme"],
+  });
+
+  mount();
+  // Re-inject after View Transitions navigation (the container arrives empty).
+  document.addEventListener("astro:after-swap", mount);
+</script>
