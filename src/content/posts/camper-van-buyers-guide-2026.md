@@ -7,7 +7,7 @@ draft: false
 tags:
   - "RV"
   - "Camper Van"
-  - "Buyer's Guide"
+  - "Buyers Guide"
   - "Travel"
   - "Class B"
 coverImage:
