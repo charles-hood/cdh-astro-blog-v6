@@ -54,7 +54,7 @@ Some of my friends are real musicians. Real artists, with real calluses. Plenty 
 
 What I can offer is precision about what I'm actually claiming, which is: not much. I don't say I wrote these songs. I don't say I composed them or performed them. When someone asks, I say I made it with Suno, and that feels like the honest formulation.
 
-The mental model that finally settled things for me came from Rick Rubin. He has produced some of the biggest records of the last forty years, and he famously can't read music and barely plays an instrument. He has said in interviews that what he brings to the studio is taste. He listens, he reacts, he shapes. Nobody calls Rick Rubin a fraud. That's the chair I try to sit in with Bubba: bring the idea, apply the taste, keep only what's worth keeping.
+The mental model that finally settled things for me came from Rick Rubin. He has produced some of the biggest records of the last forty years, and he famously can't read music and barely plays an instrument. He has said in interviews that what he brings to the studio is taste. He listens, he reacts, he shapes. Nobody calls Rick Rubin a fraud. That's the chair I try to sit in with Bubba: bring the idea, apply the taste, keep only what's worth keeping. To be clear, I'm not claiming the man's talent, or his results. Rubin is the model that made this okay in my head, not the level I'm claiming to play at.
 
 ## 477 Songs, No Lanes
 
