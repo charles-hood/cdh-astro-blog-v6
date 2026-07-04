@@ -4,7 +4,6 @@ export interface UIStrings {
     posts: string;
     tags: string;
     about: string;
-    contact: string;
     archives: string;
     search: string;
   };
