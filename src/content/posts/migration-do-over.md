@@ -4,6 +4,7 @@ pubDatetime: 2026-07-04T02:50:15.000Z
 title: "The Migration I Should Have Done the First Time"
 description: "A year ago I moved this blog to Astro and called it a fork. It wasn't one. Here's the confession, the do-over to AstroPaper 6, and how Claude Code made fixing it an evening instead of a weekend."
 draft: false
+ogImage: "https://charleshood.net/blog-images/migration-do-over/media/og-card.jpg"
 tags:
   - "Astro"
   - "Web Development"
