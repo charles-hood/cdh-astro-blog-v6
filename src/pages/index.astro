@@ -36,13 +36,6 @@ const homePath = getRelativeLocaleUrl(locale, "");
     <section id="hero" class="border-border border-b pt-8 pb-6">
       <div class="flex flex-col sm:flex-row sm:items-start sm:gap-8">
         <div class="flex-1">
-          <!-- Mobile: float the photo right of the intro text -->
-          <img
-            src="/cdh-bio-pic-LI.jpeg"
-            alt="Charles Hood"
-            class="border-accent/20 float-right mb-4 ml-4 h-32 w-32 rounded-full border-4 object-cover shadow-lg sm:hidden"
-          />
-
           <h1 class="my-4 inline-block text-4xl font-bold sm:my-8 sm:text-5xl">
             Hey there!
           </h1>
@@ -60,6 +53,13 @@ const homePath = getRelativeLocaleUrl(locale, "");
             />
             <span class="sr-only">RSS Feed</span>
           </a>
+
+          <!-- Mobile: float the photo right, intro text wraps around it -->
+          <img
+            src="/cdh-bio-pic-LI.jpeg"
+            alt="Charles Hood"
+            class="border-accent/20 float-right mb-2 ml-4 h-32 w-32 rounded-full border-4 object-cover shadow-lg sm:hidden"
+          />
 
           <p>
             Welcome to my personal web log where I write about tech, tunes,
