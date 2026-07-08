@@ -61,7 +61,7 @@ Level 2 chargers. ChargePoint and the like, the slow ones at libraries, hotels, 
 
 A van parked overnight in a random lot is suspicious. A van plugged into a charger overnight is just charging. Nobody questions an EV sitting at a charging station. That's what it's supposed to do.
 
-And you wake up every morning at 100 percent, so the 130 miles stops mattering, because you're never starting a day empty. If a spot has a four-hour limit, fine. I'm 57. I get up to piss at 3 a.m. anyway. Drive ten minutes to the next charger, plug in, sleep the back half. Might as well get something out of it.
+And you wake up every morning at 100 percent, so the 130 miles stops mattering, because you're never starting a day empty. If a spot has a four-hour limit, fine. I'm in my 50s, I get up to pee at 3 a.m. anyway. Drive ten minutes to the next charger, plug in, sleep the back half. Might as well get something out of it.
 
 ## Chase the sun, skip the war
 
