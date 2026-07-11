@@ -21,8 +21,8 @@ A while back I saw a post somewhere on the internet (probably X, and of course I
 
 So this week I did it. I'm on day two, two long-ish sessions total, and there is now a game called **FYTR9**: a "fast single-player panoramic rescue shooter," where any resemblance to a certain 1981 arcade classic is purely intentional. It's pre-alpha. The art is deliberately placeholder geometry. Only the core rescue loop exists so far. But it runs, it's honestly playable, the [repo is public](https://github.com/charles-hood/fytr9), and you can fly it in your browser right now, a little further down this page.
 
-<img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 0 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>An abduction in progress. The scanner up top shows the whole ring; the settler count at right is about to get personal.</em></p>
+<a href="https://fytr9.rockofpages.com/"><img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 0 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);"></a>
+<p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>An abduction in progress. The scanner up top shows the whole ring; the settler count at right is about to get personal. (This one is a screenshot, but click it and you'll land in the playable demo.)</em></p>
 
 Here's how it happened.
 
