@@ -49,6 +49,9 @@ I pointed it at the plan and said, in effect, go. Milestone 0 set up the repo, t
 
 Milestone 2, finished last night, is the heart of the game: the rescue loop. Snatchers patrol, pick a colonist, descend, grab, and climb. Shoot the carrier and the colonist drops. Catch them with your ship and they hang below it while you carry them down to safety. Miss, and a short fall is survivable but a long one isn't. A scanner across the top of the screen shows the whole ring, and off-screen trouble gets an edge arrow pointing the short way around the world.
 
+<img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 0 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>An abduction in progress. The scanner up top shows the whole ring; the settler count at right is about to get personal.</em></p>
+
 The part that impressed me most wasn't the features, it was the discipline. The project has 13 test suites running 1,071 checks, all headless from the command line: wrap-around math, scanner mapping, the colonist state machine, deterministic wave schedules from a seed, scoring rules. And the tests earned their keep. An integration test caught a real bug before it shipped, a mismatch between the grab offset and the carry offset that clipped carried colonists into the terrain and made falls uncatchable. My AI programmer buddy found its own bug with its own tests and reported it to me in the milestone summary.
 
 ## The state of the game (playable, after a fashion)
@@ -61,9 +64,6 @@ See for yourself. This is the actual game, exported to WebAssembly and served of
   <iframe src="https://fytr9.rockofpages.com/" title="FYTR9 playable pre-alpha demo" style="position:absolute;inset:0;width:100%;height:100%;border:1px solid #444;border-radius:8px;" allow="autoplay; fullscreen; gamepad" loading="lazy"></iframe>
 </div>
 <p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>FYTR9, pre-alpha. Click the game, then press Space. If the frame gives you trouble, <a href="https://fytr9.rockofpages.com/">play it full-page here</a>.</em></p>
-
-<img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 3.5rem 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>An abduction in progress. The scanner up top shows the whole ring; the settler count at right is about to get personal.</em></p>
 
 ## The roadmap
 
