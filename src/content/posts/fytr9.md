@@ -21,6 +21,9 @@ A while back I saw a post somewhere on the internet (probably X, and of course I
 
 So this week I did it. I'm on day two, two long-ish sessions total, and there is now a game called **FYTR9**: a "fast single-player panoramic rescue shooter," where any resemblance to a certain 1981 arcade classic is purely intentional. It's pre-alpha. The art is deliberately placeholder geometry. Only the core rescue loop exists so far. But it runs, it's honestly playable, the [repo is public](https://github.com/charles-hood/fytr9), and you can fly it in your browser right now, a little further down this page.
 
+<img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 0 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>An abduction in progress. The scanner up top shows the whole ring; the settler count at right is about to get personal.</em></p>
+
 Here's how it happened.
 
 ## Step one: I made the AIs argue about the plan
@@ -49,16 +52,13 @@ I pointed it at the plan and said, in effect, go. Milestone 0 set up the repo, t
 
 Milestone 2, finished last night, is the heart of the game: the rescue loop. Snatchers patrol, pick a colonist, descend, grab, and climb. Shoot the carrier and the colonist drops. Catch them with your ship and they hang below it while you carry them down to safety. Miss, and a short fall is survivable but a long one isn't. A scanner across the top of the screen shows the whole ring, and off-screen trouble gets an edge arrow pointing the short way around the world.
 
-<img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 0 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-<p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>An abduction in progress. The scanner up top shows the whole ring; the settler count at right is about to get personal.</em></p>
-
 The part that impressed me most wasn't the features, it was the discipline. The project has 13 test suites running 1,071 checks, all headless from the command line: wrap-around math, scanner mapping, the colonist state machine, deterministic wave schedules from a seed, scoring rules. And the tests earned their keep. An integration test caught a real bug before it shipped, a mismatch between the grab offset and the carry offset that clipped carried colonists into the terrain and made falls uncatchable. My AI programmer buddy found its own bug with its own tests and reported it to me in the milestone summary.
 
 ## The state of the game (playable, after a fashion)
 
 What exists today is one full wave of the real game: ten colonists, four snatchers, catch and carry and deliver, scoring with bonuses, instant retry. No lives yet, no bombs, no hyperspace, and the enemies don't shoot back. Placeholder shapes stand in for all the art, per the plan, until the core loop is fully proven.
 
-See for yourself. This is the actual game, exported to WebAssembly and served off the same $18 DigitalOcean droplet that hosts this blog. Click the game to give it keyboard focus, then press Space. WASD or arrows to fly, Space or J to fire. A gamepad works too. Desktop browser recommended; there are no touch controls yet.
+See for yourself. This is the actual game, exported to WebAssembly and served off the same $18 DigitalOcean droplet that hosts this blog. Click the game to give it keyboard focus, then press Space. WASD or arrows to fly, Space or J to fire. A gamepad works too. Desktop browser recommended; there are no touch controls yet (does not work on iPhone).
 
 <div class="fytr9-embed" style="position:relative;width:100%;aspect-ratio:16/9;margin:1.5rem 0;">
   <iframe src="https://fytr9.rockofpages.com/" title="FYTR9 playable pre-alpha demo" style="position:absolute;inset:0;width:100%;height:100%;border:1px solid #444;border-radius:8px;" allow="autoplay; fullscreen; gamepad" loading="lazy"></iframe>
