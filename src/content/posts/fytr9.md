@@ -1,7 +1,7 @@
 ---
 author: "Charles Hood"
 pubDatetime: 2026-07-11T13:27:44.000Z
-title: "Two Days, Four AIs, One Arcade Game"
+title: "I Told an AI to Build Me an Arcade Game. It Did."
 description: "I had four AI models write the plan and Claude Code build the game. Two days later there is a playable arcade demo you can try in your browser."
 ogImage: "https://charleshood.net/blog-images/fytr9/media/og-card.jpg"
 draft: false
@@ -62,7 +62,7 @@ See for yourself. This is the actual game, exported to WebAssembly and served of
 </div>
 <p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>FYTR9, pre-alpha. Click the game, then press Space. If the frame gives you trouble, <a href="https://fytr9.rockofpages.com/">play it full-page here</a>.</em></p>
 
-<img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 0 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<img src="/blog-images/fytr9/media/rescue-slice.png" alt="FYTR9 gameplay screenshot: a Snatcher carrying a Settler upward while the player ship closes in, with the ring scanner across the top of the screen" style="width: 100%; height: auto; margin: 3.5rem 0 8px 0; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
 <p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>An abduction in progress. The scanner up top shows the whole ring; the settler count at right is about to get personal.</em></p>
 
 ## The roadmap
@@ -78,7 +78,7 @@ The plan runs through seven milestones, and the next four are already specified 
 
 Everything is at [github.com/charles-hood/fytr9](https://github.com/charles-hood/fytr9), MIT licensed: the game, the tests, and the full plan lineage, from the four original model plans through v4. If you want to poke at it, playtest it, or contribute, the README has a quick start (install Godot, clone, run) and a list of the feedback that helps most right now, which is mostly about how the flight feels.
 
-## Why this delighted me
+## Why this makes me smile
 
 I want to be clear about what this is and isn't. Nobody should mistake FYTR9 for a finished game, and I didn't write a line of it. What I did was decide what to build, set up a planning process I was curious about, review milestone reports, and playtest. Claude Code did the rest.
 
