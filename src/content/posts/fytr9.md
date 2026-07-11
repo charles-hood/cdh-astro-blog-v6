@@ -60,10 +60,21 @@ What exists today is one full wave of the real game: ten colonists, four snatche
 
 See for yourself. This is the actual game, exported to WebAssembly and served off the same $18 DigitalOcean droplet that hosts this blog. Click the game to give it keyboard focus, then press Space. WASD or arrows to fly, Space or J to fire. A gamepad works too. Desktop browser recommended; there are no touch controls yet.
 
-<div style="position:relative;width:100%;aspect-ratio:16/9;margin:1.5rem 0;">
+<div class="fytr9-embed" style="position:relative;width:100%;aspect-ratio:16/9;margin:1.5rem 0;">
   <iframe src="https://fytr9.rockofpages.com/" title="FYTR9 playable pre-alpha demo" style="position:absolute;inset:0;width:100%;height:100%;border:1px solid #444;border-radius:8px;" allow="autoplay; fullscreen; gamepad" loading="lazy"></iframe>
 </div>
-<p style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>FYTR9, pre-alpha. Click the game, then press Space. If the frame gives you trouble, <a href="https://fytr9.rockofpages.com/">play it full-page here</a>.</em></p>
+<p class="fytr9-embed" style="text-align: center; font-size: 0.85em; opacity: 0.75; margin: 0 0 24px 0;"><em>FYTR9, pre-alpha. Click the game, then press Space. If the frame gives you trouble, <a href="https://fytr9.rockofpages.com/">play it full-page here</a>.</em></p>
+
+<div class="fytr9-embed-fallback" style="display: none; border: 1px solid #444; border-radius: 8px; padding: 1rem 1.25rem; margin: 1.5rem 0;">
+  <p style="margin: 0;">The playable demo needs a keyboard or gamepad, so it only appears here on desktop. It lives at <a href="https://fytr9.rockofpages.com/">fytr9.rockofpages.com</a> whenever you're at one.</p>
+</div>
+
+<style>
+@media (max-width: 768px) {
+  .fytr9-embed { display: none !important; }
+  .fytr9-embed-fallback { display: block !important; }
+}
+</style>
 
 ## The roadmap
 
