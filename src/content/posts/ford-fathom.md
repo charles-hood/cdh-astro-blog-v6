@@ -1,7 +1,7 @@
 ---
 author: "Charles Hood"
 pubDatetime: 2026-08-06T15:20:00.000Z
-title: "The Skunkworks Truck Has a Name: Ford Fathom"
+title: "Ford's Skunkworks Truck Is the Fathom"
 description: "A year after I wrote about Ford betting the company on a secret EV team, the truck is real. It's called Fathom, it's under $30k, and I want one."
 draft: false
 ogImage: "https://charleshood.net/blog-images/ford-fathom/media/og-card.jpg"
