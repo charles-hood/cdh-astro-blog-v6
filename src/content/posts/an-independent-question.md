@@ -25,7 +25,7 @@ ogImage: "https://charleshood.net/blog-images/an-independent-question/media/og-c
 </style>
 
 <div style="border-left: 3px solid var(--color-accent); background: color-mix(in srgb, var(--color-muted) 35%, transparent); padding: 10px 16px; margin: 0 0 28px 0; border-radius: 0 8px 8px 0; font-size: 0.82em; line-height: 1.5; color: var(--color-foreground);">
-<strong>Fan fiction.</strong> A <em>Star Trek</em> and <em>Battlestar Galactica</em> crossover. The characters belong to their respective owners. The image is AI concept art.
+This is a work of fan fiction. <em>Star Trek</em>, <em>Battlestar Galactica</em>, and their characters are the property of their respective rights holders. No copyright infringement is intended. This work is noncommercial and the author earns no profit from it. The image is AI concept art.
 </div>
 
 Baltar eyed the Vulcan's hand.
