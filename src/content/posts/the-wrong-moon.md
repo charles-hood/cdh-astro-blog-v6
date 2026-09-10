@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2026-09-14T12:00:00.000Z
+pubDatetime: 2026-09-10T03:08:00.000Z
 title: "The Wrong Moon"
 description: "The TARDIS lands on Moonbase Alpha and Maya must borrow the Doctor's shape to walk into a crack in time. A Doctor Who and Space: 1999 crossover story."
 draft: false
