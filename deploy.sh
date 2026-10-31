@@ -1,5 +1,5 @@
 #!/bin/bash
-# Zero-downtime blue-green deploy for the v6 blog (AstroPaper 6 / pnpm).
+# Zero-downtime blue-green deploy for the blog (AstroPaper on pnpm; the "v6" in the repo name is the blog generation, not the theme version).
 # Builds to a timestamped directory, atomically switches the `dist` symlink,
 # and keeps the last 3 builds for instant rollback:
 #   ln -sfn dist-<TIMESTAMP> dist
