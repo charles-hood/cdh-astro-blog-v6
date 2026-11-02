@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-02-14T00:00:00.000Z
+pubDatetime: 2024-02-14T05:00:00.000Z
 title: "Roatán Reflections: Embracing the Low-Key Moments"
 description: "The Entourage Grows and Honduran Chocolate."
 draft: false

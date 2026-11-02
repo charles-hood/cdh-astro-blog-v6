@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2023-10-15T00:00:00.000Z
+pubDatetime: 2023-10-15T05:00:00.000Z
 title: "Free Website Hosting with GitHub Pages: A Quick Guide"
 description: "Discover the advantages of hosting your website for free using GitHub Pages and how to get started with this hassle-free hosting option."
 draft: false

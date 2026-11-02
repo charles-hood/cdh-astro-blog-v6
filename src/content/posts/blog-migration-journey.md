@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2025-07-27T00:00:00.000Z
+pubDatetime: 2025-07-27T05:00:00.000Z
 title: "My Blog Migration Journey: From Gatsby to Astro"
 description: "Why I moved my personal blog from Gatsby to Astro, what I learned, and how it turned out."
 draft: false

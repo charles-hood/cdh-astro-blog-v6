@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-12-06T00:00:00.000Z
+pubDatetime: 2024-12-06T05:00:00.000Z
 title: "The Weekend Dilemma: How to Find the Best Events"
 description: "Discovering the best events and activities without the hassle."
 draft: false

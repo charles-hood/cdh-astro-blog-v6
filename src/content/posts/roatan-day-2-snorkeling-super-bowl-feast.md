@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-02-12T00:00:00.000Z
+pubDatetime: 2024-02-12T05:00:00.000Z
 title: "Day 2 in Roatán: Snorkels and Super Bowl Snacks"
 description: "Exploration, snorkeling and a low key Super Bowl party."
 draft: false

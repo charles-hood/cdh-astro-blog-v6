@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-02-11T00:00:00.000Z
+pubDatetime: 2024-02-11T05:00:00.000Z
 title: "Exploring Roatán: Sun, Sea, and Island Adventures"
 description: "Embark on a journey to Roatan, from landing at RTB airport to the sandy beaches and unique experiences. Discover the charm of this Caribbean gem."
 draft: false

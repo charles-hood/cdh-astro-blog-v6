@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-03-02T00:00:00.000Z
+pubDatetime: 2024-03-02T05:00:00.000Z
 title: "An Itinerary Through Arizona: Courtesy of CoPilot AI"
 description: "Plotting a road trip through Arizona with AI as my virtual vacation planner."
 draft: false

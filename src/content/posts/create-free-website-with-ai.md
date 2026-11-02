@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2025-03-15T00:00:00.000Z
+pubDatetime: 2025-03-15T05:00:00.000Z
 title: "Create a Website with AI: No Coding Required"
 description: "Plus you can host your site for FREE on GitHub or Netlify."
 draft: false

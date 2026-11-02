@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-03-07T00:00:00.000Z
+pubDatetime: 2024-03-07T05:00:00.000Z
 title: "Unveiling Cosmic Mysteries: An Afternoon with Neil deGrasse Tyson"
 description: "Embark on a cosmic journey at Atlanta's Fox Theatre—from Mars to the search for intelligent life."
 draft: false

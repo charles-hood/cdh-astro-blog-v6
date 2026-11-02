@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2025-08-15T01:00:00.000Z
+pubDatetime: 2025-08-15T05:00:00.000Z
 title: "Understanding How AI Actually Works: A Deep Dive into Large Language Models"
 description: "A comprehensive breakdown of Andrej Karpathy's 3.5-hour masterclass on how LLMs are trained, why they hallucinate, and what's really happening when you chat with AI"
 draft: false

@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2023-12-15T00:00:00.000Z
+pubDatetime: 2023-12-15T05:00:00.000Z
 title: "The Power of Fresh Content for Business Owners and Creators"
 description: "Explore the significance of keeping your website and content regularly updated for business owners, artists, and content creators."
 draft: false

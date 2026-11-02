@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-02-08T00:00:00.000Z
+pubDatetime: 2024-02-08T05:00:00.000Z
 title: "How AI is Changing Music Creation"
 description: "Explore the transformation of music creation through the lens of AI, with a focus on the advancements made by companies like LANDR in automated audio mastering."
 draft: false

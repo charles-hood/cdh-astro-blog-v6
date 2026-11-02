@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-02-27T00:00:00.000Z
+pubDatetime: 2024-02-27T05:00:00.000Z
 title: "Confessions of a Floor Plan Dreamer: The Allure of Little Cabins"
 description: "Do you ever lose yourself in the world of floor plans? Today, I'm sharing my recent discovery of a modern cabin that has me dreaming of tiny living."
 draft: false

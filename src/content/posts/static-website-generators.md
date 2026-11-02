@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2023-11-15T00:00:00.000Z
+pubDatetime: 2023-11-15T05:00:00.000Z
 title: "Harnessing the Power of Static Website Generators for Seamless Web Publishing"
 description: "Explore the simplicity, speed, and cost-effectiveness of static website generators, with a focus on hosting for free using GitHub Pages and notable examples like Gatsby."
 draft: false

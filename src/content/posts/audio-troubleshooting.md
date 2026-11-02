@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2025-08-18T01:00:00.000Z
+pubDatetime: 2025-08-18T05:00:00.000Z
 title: "Two Hours of FFmpeg vs Three Minutes of Adobe"
 description: "Two hours of FFmpeg wizardry couldn't fix what Adobe Podcast Enhance solved in three minutes. Sometimes the best tool isn't the one you know best."
 draft: false

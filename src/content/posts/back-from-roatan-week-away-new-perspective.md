@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-02-18T00:00:00.000Z
+pubDatetime: 2024-02-18T05:00:00.000Z
 title: "Back from Roatán: A Week Away, A New Perspective"
 description: "Observations after returning from a week in Roatán."
 draft: false

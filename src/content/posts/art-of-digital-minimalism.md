@@ -1,6 +1,6 @@
 ---
 author: "Charles Hood"
-pubDatetime: 2024-02-24T00:00:00.000Z
+pubDatetime: 2024-02-24T05:00:00.000Z
 title: "The Art of Digital Minimalism"
 description: "How to reclaim tranquility in our hyper-connected world."
 draft: false
