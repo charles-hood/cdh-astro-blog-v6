@@ -49,15 +49,32 @@
     container.appendChild(script);
   }
 
+  // giscus loads lazily: its iframe exists before it has loaded giscus.app,
+  // and a message sent then is dropped (with a console warning). So only
+  // message a frame once it has spoken to us, and on its first message send
+  // the current theme, in case the reader toggled before it loaded.
+  const readyFrames = new WeakSet<Window>();
+
+  function giscusFrame(): HTMLIFrameElement | null {
+    return document.querySelector<HTMLIFrameElement>("iframe.giscus-frame");
+  }
+
   function syncTheme(): void {
-    const iframe = document.querySelector<HTMLIFrameElement>(
-      "iframe.giscus-frame"
-    );
-    iframe?.contentWindow?.postMessage(
+    const target = giscusFrame()?.contentWindow;
+    if (!target || !readyFrames.has(target)) return;
+    target.postMessage(
       { giscus: { setConfig: { theme: currentTheme() } } },
       GISCUS_ORIGIN
     );
   }
+
+  window.addEventListener("message", event => {
+    if (event.origin !== GISCUS_ORIGIN) return;
+    const target = giscusFrame()?.contentWindow;
+    if (!target || event.source !== target || readyFrames.has(target)) return;
+    readyFrames.add(target);
+    syncTheme();
+  });
 
   // The site's theme.ts reflects every toggle onto <html data-theme="...">;
   // watching that attribute keeps the giscus iframe in step. documentElement
