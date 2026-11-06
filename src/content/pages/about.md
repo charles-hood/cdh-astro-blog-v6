@@ -25,7 +25,7 @@ After hours I build things, lately with AI doing a lot of the typing. The bigges
 
 ## Live Music 🎵
 
-I don't get out as often as I used to, but I still love it, especially small venues, Americana and singer-songwriters. And a great cover band in a local bar can still make my whole night. I help musician friends with their websites from time to time, for free, like [this one for Thomas Hinds](https://thomashindsmedia.com/). The music that does show up here belongs to [Bubba Zuckermusk](/posts/bubba-zuckermusk/), my AI country alter ego, who has a few hundred songs to his name.
+I don't get out as often as I used to, but I still love it, especially small venues, Americana and singer-songwriters. And a great cover band in a local bar can still make my whole night. I help musician friends with their websites from time to time, for free, like the ones for [Thomas Hinds](https://thomashindsmedia.com/) and [Spencer Scott Smith & The Cherokee Roses](https://spencerscottsmith.com/). The music that does show up here belongs to [Bubba Zuckermusk](/posts/bubba-zuckermusk/), my AI country alter ego, who has a few hundred songs to his name.
 
 ## The Road 🛣️
 
