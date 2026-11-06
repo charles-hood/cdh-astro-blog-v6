@@ -29,7 +29,11 @@ export default defineAstroPaperConfig({
     toc: true,
   },
   socials: [
-    { name: "mail", url: "mailto:charles.hood@gmail.com" },
+    {
+      name: "github",
+      url: "https://github.com/charles-hood",
+      linkTitle: "Charles Hood on GitHub",
+    },
     { name: "x", url: "https://x.com/charleshood" },
     { name: "linkedin", url: "https://www.linkedin.com/in/charleshood/" },
     { name: "facebook", url: "https://www.facebook.com/charleshood" },

@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-description: "Old-school tech nerd in the Atlanta area, writing about tech, tunes, and travel. How to reach me: X, LinkedIn, Facebook, or email."
+description: "Old-school tech nerd in the Atlanta area. What I write about here, what I build, and how to reach me."
 ---
 
 <img src="/cdh-hiking-az.jpg" alt="Charles Hood hiking in Arizona" class="about-bio-image" style="float: right; margin: -60px 0 10px 10px; border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 0 4px 8px rgba(0,0,0,0.1);"/>
@@ -15,30 +15,35 @@ description: "Old-school tech nerd in the Atlanta area, writing about tech, tune
 }
 </style>
 
-I'm an old-school tech nerd living in Canton, GA, though I usually just say "Atlanta" because it's easier than explaining where Canton is, how to get there, and why I live there. When I'm not explaining where I live, I'm geeking out over new tech, trying to find the perfect live show, or plotting my next getaway.
+I'm an old-school tech nerd living in Canton, GA, though I usually just say "Atlanta" because it's easier than explaining where Canton is, how to get there, and why I live there. This blog is where I put whatever I've been chewing on lately. It wanders, and I'm fine with that.
 
-## Tech Treks 💻
-I've been doing this since floppy disks were actually floppy. These days I'm tinkering with AI tools and trying to figure out why my smart home keeps turning off the lights when I'm still in the room. The tech landscape keeps changing, and that's what keeps it interesting.
+## Tech 💻
+
+I've been doing this since floppy disks were actually floppy, and I still can't figure out why my smart home turns off the lights while I'm in the room. By day I do technical pre-sales for data center equipment in the Brocade division of Broadcom, which makes me a hit at parties. This is my personal blog, though. I don't speak for Broadcom here.
+
+After hours I build things, lately with AI doing a lot of the typing. The biggest is [MisterDiagram](https://misterdiagram.com): tell Claude what you want drawn, in plain English, and get back a real Visio file, no Visio required. It's open source and written in Rust, and I built it with Claude Code and Codex as very fast coworkers. I also send the occasional fix to [AstroPaper](https://github.com/satnaing/astro-paper), the theme this site runs on, and four of mine shipped in its 7.1 release. Everything else, finished or not, is on [my GitHub](https://github.com/charles-hood). Here on the blog it turns into posts like [the $5.50 reverse proxy](/posts/reverse-proxy-fix-ancient-routers/) and [the arcade game Claude built me](/posts/fytr9/).
 
 ## Live Music 🎵
-**Small venues, big passion.** There's something truly magical about experiencing music in a space where the energy is palpable and the connection between artists and audience is undeniable. That's where I thrive.
 
-**Supporting local artists is a priority for me.** I'm convinced that some of the most talented musicians are right here in our communities, and I'm committed to championing their voices. I'm open to all kinds of musical genres, but Americana and singer/songwriter sets are the ones that speak to my soul.
+I don't get out as often as I used to, but I still love it, especially small venues, Americana and singer-songwriters. And a great cover band in a local bar can still make my whole night. I help musician friends with their websites from time to time, for free, like [this one for Thomas Hinds](https://thomashindsmedia.com/). The music that does show up here belongs to [Bubba Zuckermusk](/posts/bubba-zuckermusk/), my AI country alter ego, who has a few hundred songs to his name.
 
-## Nomadic Quests 🛩️
-I'm not the hostel-backpacking type anymore, but I'm always suitcase-ready. My happy place is somewhere down a highway, chasing quirky roadside attractions and discovering the hole-in-the-wall spots the locals keep to themselves. I love hopping in my EV with no firm plans and only a vague destination, just enough to know I'm headed toward a dot on the map I've never been before.
+## The Road 🛣️
 
-## About This Website 🌐
+For a while I was deep into planning a nomadic retirement: camper vans, EV range, which cities have the best summer weather. Looking back, some of that was escapism, and it's on the shelf for now. The research wasn't wasted, and it's all here if I pick it back up. [Deciding Where to Live Without Fooling Yourself](/posts/deciding-where-to-live/) and [the no-build camper](/posts/no-build-build/) are good places to start. I still love a road trip with no firm plans and only a vague destination.
 
-Everyone needs a corner of the internet that's truly theirs, and this is mine. I built it with [Astro](https://astro.build/) and the [AstroPaper](https://github.com/satnaing/astro-paper) theme, and it runs on a [DigitalOcean](https://www.digitalocean.com/) VPS, a tiny Linux VM sitting in someone else's data center, pretending to be the cloud. I write everything in Markdown, so updating the site is quick and painless. Minimal coding, maximum personality. If you want help spinning up your own, [hit me up](#get-in-touch-).
+## Fiction 📖
+
+My newest habit is short fiction, mostly crossovers between the science fiction I grew up on: the Doctor landing on Moonbase Alpha, a Vulcan sizing up Gaius Baltar. I post one whenever inspiration strikes, and the [Fan Fiction tag](/tags/fan-fiction/) has them all.
+
+## This Site 🌐
+
+Everyone needs a corner of the internet that's truly theirs, and this is mine. It runs on [Astro](https://astro.build/) and [AstroPaper](https://github.com/satnaing/astro-paper), on a [DigitalOcean](https://www.digitalocean.com/) VPS: a tiny Linux VM sitting in someone else's data center, pretending to be the cloud. I write everything in Markdown. If you want help spinning up your own, get in touch.
 
 ## Get in Touch 📬
 
-I'd love to hear from you. Here's where to find me.
-
-- **X** 🐦: The best way to stay in touch. Follow [@charleshood](https://twitter.com/charleshood) for tech insights, music recommendations, and random observations.
-- **LinkedIn** 💼: For professional inquiries or to connect on a more formal platform, visit my [LinkedIn profile](https://www.linkedin.com/in/charleshood/).
+- **X**: [@charleshood](https://x.com/charleshood) is where I'm most likely to see it.
+- **LinkedIn**: [my profile](https://www.linkedin.com/in/charleshood/), for anything work-related.
 - **Facebook**: Yeah, I still use [Facebook](https://www.facebook.com/charleshood). I'm in my 50s!&nbsp;😄
-- **Email** 📧: For anything longer, reach me at [charles.hood@gmail.com](mailto:charles.hood@gmail.com).
+- **Comments**: or leave one on any post (you'll need a GitHub account).
 
 <p style="font-size: 0.85rem; opacity: 0.7; margin-top: 2.5rem;">☕️ Want to support my projects? <a href="https://ko-fi.com/charleshood" target="_blank" rel="noopener noreferrer">Buy me a coffee!</a></p>
