@@ -67,7 +67,10 @@
     attributeFilter: ["data-theme"],
   });
 
-  mount();
-  // Re-inject after View Transitions navigation (the container arrives empty).
-  document.addEventListener("astro:after-swap", mount);
+  // Mount on astro:page-load, which fires on the first load and after every
+  // View Transitions navigation (the container arrives empty). Not on
+  // astro:after-swap: theme.ts restores data-theme in its own after-swap
+  // handler, and mounting before it ran loaded giscus in the light theme on a
+  // dark page.
+  document.addEventListener("astro:page-load", mount);
 </script>
