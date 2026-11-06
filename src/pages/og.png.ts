@@ -25,6 +25,7 @@ export const GET: APIRoute = async context => {
 
   const svg = await satori(
     {
+      key: null,
       type: "div",
       props: {
         style: {
@@ -44,6 +45,7 @@ export const GET: APIRoute = async context => {
                 position: "absolute",
                 top: "-1px",
                 right: "-1px",
+                boxSizing: "border-box",
                 border: "4px solid #000",
                 background: "#ecebeb",
                 opacity: "0.9",
@@ -60,6 +62,8 @@ export const GET: APIRoute = async context => {
             type: "div",
             props: {
               style: {
+                position: "relative",
+                boxSizing: "border-box",
                 border: "4px solid #000",
                 background: "#fefbfb",
                 borderRadius: "4px",
@@ -98,14 +102,19 @@ export const GET: APIRoute = async context => {
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 72, fontWeight: "bold" },
+                              style: {
+                                fontSize: 72,
+                                fontWeight: "bold",
+                                margin: "0 0 31px",
+                                width: "100%",
+                              },
                               children: config.site.title,
                             },
                           },
                           {
                             type: "p",
                             props: {
-                              style: { fontSize: 28 },
+                              style: { fontSize: 28, margin: 0, width: "100%" },
                               children: config.site.description,
                             },
                           },
