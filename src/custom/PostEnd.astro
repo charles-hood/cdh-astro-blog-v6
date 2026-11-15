@@ -4,8 +4,13 @@
 // here; use `post` to skip some posts. This file is yours: AstroPaper
 // never changes it after release.
 import type { CollectionEntry } from "astro:content";
+import Comments from "./Comments.astro";
 
 type Props = {
   post: CollectionEntry<"posts">;
 };
 ---
+
+<hr class="my-8 border-dashed" />
+
+<Comments />
