@@ -2,7 +2,7 @@
 author: "Charles Hood"
 pubDatetime: 2026-11-25T09:56:36.000Z
 title: "I Pitched a Simon & Simon Revival"
-description: "A sleepless night with ChatGPT turned into a full series treatment for a Simon & Simon revival: the sons inherit the agency, and the dads refuse to retire quietly."
+description: "I couldn't sleep, so I stayed up pitching a Simon & Simon revival to ChatGPT. Rick and A.J.'s sons run the agency now, and I ended up with a whole series treatment."
 draft: false
 hideToc: true
 ogImage: "https://charleshood.net/blog-images/the-simons/media/og-card.jpg"
@@ -25,16 +25,16 @@ tags:
 }
 </style>
 
-I couldn't sleep last night, so I spent a good part of it with ChatGPT working out how to bring back *Simon & Simon*.
+I couldn't sleep last night. So instead of doing something sensible, I stayed up pitching a *Simon & Simon* revival to ChatGPT.
 
-If you missed it, the show premiered on CBS in November 1981 (45 years ago this week, as it happens) and ran for eight seasons. Rick and A.J. Simon were brothers who ran a private detective agency in San Diego. Rick (Gerald McRaney) was the Marine veteran with the pickup truck, and A.J. (Jameson Parker) was the pressed and polished one with the Camaro. They argued about everything and solved the case anyway.
+If you don't remember it, *Simon & Simon* was a detective show on CBS. It premiered in November 1981 (45 years ago this week, as it turns out) and ran for eight seasons. Rick and A.J. Simon were brothers who ran a private detective agency in San Diego. Rick (Gerald McRaney) was the Marine veteran with the pickup truck. A.J. (Jameson Parker) was the neat one with the Camaro. They argued about everything and they solved the case anyway.
 
-Both actors are close to eighty now, which is a lot to ask of the leads in a detective show. So in my version the agency goes to their sons, the dads wander in for a few minutes at a time, and the rest of San Diego fills up with actors you last saw in 1985.
+Here's my idea. McRaney and Parker are both 79 now, and you can't ask two guys that age to carry a detective show. So their sons get the agency. The dads still show up, but only for a few minutes at a time, and the rest of San Diego is full of actors you haven't seen since about 1985.
 
-By morning I had a full series treatment. The ideas are mine, and ChatGPT's job was to keep up, take notes and type it all into the document below, which I've reformatted for the blog.
+By morning I had a whole series treatment. The ideas are mine. ChatGPT's job was to keep up, take notes and type it all up into the document below. All I've done since is reformat it for the blog.
 
 <div style="border-left: 3px solid var(--color-accent); background: color-mix(in srgb, var(--color-muted) 35%, transparent); padding: 10px 16px; margin: 0 0 28px 0; border-radius: 0 8px 8px 0; font-size: 0.82em; line-height: 1.5; color: var(--color-foreground);">
-An unofficial pitch, written for fun. I hold no rights to <em>Simon &amp; Simon</em>, every casting idea is wishful thinking, and nobody named here has anything to do with it. The image is AI concept art.
+This is an unofficial pitch and I wrote it for fun. I don't own any rights to <em>Simon &amp; Simon</em>, the casting is all wishful thinking, and nobody named here has anything to do with it. The image is AI concept art.
 </div>
 
 ---
@@ -304,4 +304,4 @@ Make a show people look forward to watching. Make them laugh. Occasionally break
 
 ---
 
-**Share with me:** Who is your "that guy from that show"? I'd like to know who else belongs at the senior center. Comments are open. 💬
+**Share with me:** Who's your "that guy from that show"? Tell me who else should be hanging around the senior center. Comments are open. 💬
